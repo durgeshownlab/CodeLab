@@ -1,11 +1,11 @@
-import { Center } from './components/Center';
+import { Center } from './components/TextForm';
 import { Navbar } from './components/Navbar';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Center />
+      <Navbar title="TextUtils"/>
+      <TextForm />
     </>
   );
 }

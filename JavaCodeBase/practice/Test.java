@@ -6,6 +6,9 @@ class Test
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number: ");
         int a=sc.nextInt();
-        System.out.println(a+a);
+        for (int i = 0; i < a; i++)
+        {
+            System.out.println(i);
+        }
     }
 }
