@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Center = () => {
+export const TextForm = (props) => {
   const resizableTextArea={
     "resize": "none"
   }
@@ -8,7 +8,7 @@ export const Center = () => {
     <>
       <div className="container">
         <div className="mb-3">
-          <h4>Enter your text to Beautify</h4>
+          <h4>{props.title}</h4>
           <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" style={resizableTextArea}></textarea>
         </div>
 
