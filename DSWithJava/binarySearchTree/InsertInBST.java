@@ -90,7 +90,7 @@ public class InsertInBST
 
         System.out.println();
 
-        obj.insert(root, 5);
+        obj.insert(root, 7);
         obj.inOrder(root);
 
         System.out.println();
