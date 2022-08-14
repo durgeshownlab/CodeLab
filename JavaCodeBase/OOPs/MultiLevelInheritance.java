@@ -1,4 +1,4 @@
-class C1
+class Hii
 {
     void hii()
     {
@@ -6,7 +6,7 @@ class C1
     }
 }
 
-class C2 extends C1
+class Hello extends Hii
 {
     void hello()
     {
@@ -14,7 +14,7 @@ class C2 extends C1
     }
 }
 
-class C3 extends C2
+class Msg extends Hello
 {
     void msg()
     {
@@ -26,32 +26,32 @@ public class MultiLevelInheritance
 {
     public static void main(String[] args)
     {
-        C3 c3=new C3();
+        Msg c3=new Msg();
         c3.msg();
         c3.hello();
         c3.hii();
         
-        C2 c2=new C2();
+        Hello c2=new Hello();
         //c2.msg();
         c2.hello();
         c2.hii();
 
-        C1 c1=new C1();
+        Hii c1=new Hii();
         // c1.msg();
         // c1.hello();
         c1.hii();
 
-        C1 c4=new C2();
+        Hii c4=new Hello();
         // c4.msg();
         // c4.hello();
         c4.hii();
 
-        C1 c5=new C3();
+        Hii c5=new Msg();
         // c5.msg();
         // c5.hello();
         c5.hii();
 
-        C2 c6=new C3();
+        Hello c6=new Msg();
         // c6.msg();
         c6.hello();
         c6.hii();
