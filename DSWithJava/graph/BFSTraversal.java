@@ -7,7 +7,7 @@ public class BFSTraversal
         Queue<Integer> q=new LinkedList<Integer>();
         
         int node;
-        int i=5;
+        int i=0; //starting node
         int[] visited={0,0,0,0,0,0,0};
 
         int[][] a={
